@@ -1,27 +1,60 @@
-# Calculadora
+# Calculadora App (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+¡Bienvenido a la aplicación de calculadora en Angular! Esta aplicación te permite realizar cálculos fácilmente. A continuación, te explicaremos cómo configurar y ejecutar esta aplicación en tu entorno.
 
-## Development server
+## Requisitos Previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Asegúrate de tener Node.js y npm (Node.js package manager) instalados en tu sistema. Puedes descargarlos desde [nodejs.org](https://nodejs.org/).
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  
 
-## Build
+1.  Descarga el archivo ZIP a tu máquina local. Luego, descomprime el archivo ZIP en la ubicación que elijas.
+    
+2.  Navega al directorio de la aplicación. Ingresa a la carpeta de la aplicación de la tarea:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
 
-## Running unit tests
+`cd  tu_nombre_de_carpeta`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
 
-## Running end-to-end tests
+3. Instala las dependencias del proyecto utilizando npm. Ejecuta el siguiente comando:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
 
-## Further help
+`npm  install`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+
+Esto instalará todas las dependencias necesarias para ejecutar la aplicación.
+
+## Ejecución
+
+Una vez que hayas instalado las dependencias, puedes ejecutar la aplicación. Usa el siguiente comando:
+
+```bash
+
+`ng  serve`
+
+```
+
+Esto iniciará el servidor de desarrollo, y podrás acceder a la aplicación en tu navegador en [http://localhost:4200/](http://localhost:4200/).
+
+## Uso
+
+-   La aplicación te permite realizar cálculos.
+-   Puedes agregar nuevos números y operadores utilizando el teclado virtual.
+-   Realiza cálculos y visualiza los resultados en pantalla.
+-   ¡Disfruta usando la calculadora!
+
+## Contribución
+
+Si deseas contribuir a esta aplicación o informar problemas, siéntete libre de crear un problema o enviar un pull request. ¡Tu colaboración es bienvenida!
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](https://opensource.org/license/mit/) para obtener más detalles.
+
+¡Gracias por usar nuestra aplicación de calculadora en Angular!

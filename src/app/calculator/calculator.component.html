@@ -1,0 +1,29 @@
+<div class="calculator" >
+  <app-display [display]="display"></app-display>
+  <button class="button c" (click)="reset()">AC</button>
+  <button class="button l" (click)="delete()"><</button>
+  <button class="button l" (click)="appendToDisplay('/')">/</button>
+  <button class="button l" (click)="appendToDisplay('*')">*</button>
+  <div class="numbers">
+    <button class="button" (click)="appendToDisplay('7')">7</button>
+    <button class="button" (click)="appendToDisplay('8')">8</button>
+    <button class="button" (click)="appendToDisplay('9')">9</button>
+    <button class="button" (click)="appendToDisplay('4')">4</button>
+    <button class="button" (click)="appendToDisplay('5')">5</button>
+    <button class="button" (click)="appendToDisplay('6')">6</button>
+    <button class="button" (click)="appendToDisplay('1')">1</button>
+    <button class="button" (click)="appendToDisplay('2')">2</button>
+    <button class="button" (click)="appendToDisplay('3')">3</button>
+    <button class="btn-x-md button" (click)="appendToDisplay('0')">0</button>
+    <button class="button" (click)="appendToDisplay('.')">.</button>
+  </div>
+  <div class="functions">
+    <button class="button l" (click)="appendToDisplay('-')">-</button>
+    <button class="btn-y-md button l" (click)="appendToDisplay('+')">+</button>
+    <button class="button l" (click)="calculate()">=</button>
+  </div>
+
+  <ng-container *ngIf="error.tipo">
+    <app-error [error]="error"></app-error>
+  </ng-container>
+</div>
